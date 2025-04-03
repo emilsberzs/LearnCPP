@@ -128,7 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="add.cpp" />
+    <ClCompile Include="multiply.cpp" />
     <ClCompile Include="multi_file_programs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="multiply.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

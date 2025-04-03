@@ -21,5 +21,13 @@
     <ClCompile Include="add.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="multiply.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="multiply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
