@@ -53,10 +53,26 @@ void nestedLoopSteps(int height)
 	}
 }
 
+void selectAnOption()
+{
+	int selection{};
+	do
+	{
+		std::cout << "Please make a selection: \n";
+		std::cout << "1)Addition\n";
+		std::cout << "2)Substraction\n";
+		std::cout << "3)Multiplication\n";
+		std::cout << "4)Division\n";
+		std::cin >> selection;
+	} while (selection < 1 || selection>4);
+	std::cout<<"You selected option # " << selection;
+}
+
 int main() 
 {
 	//repeatSomeTimes(10);#
 	//gridBySize(86, 7);
-	nestedLoopSteps(50);
+	//nestedLoopSteps(50);
+	selectAnOption();
 	return 0;
 }
