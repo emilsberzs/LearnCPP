@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <string_view> //C++17 and up only
 
 //Doesnt work with whitespaces
 std::string getName()
