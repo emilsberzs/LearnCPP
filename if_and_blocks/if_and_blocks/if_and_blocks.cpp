@@ -44,12 +44,23 @@ void nestedAgeAndHeight(int age, int height)
 		std::cout << "Not old enough";
 }
 
+void inlineDoubleCheck(int age, int height)
+{
+	if (age >= constants::minDrinkingAge && height >= constants::minRiddeHeightCM)
+		std::cout << "Age and height verified.\n";
+	else if (age >= constants::minDrinkingAge || height >= constants::minRiddeHeightCM)
+		std::cout << "One of the requirements not satisfiedn\n";
+	else
+		std::cout << "Neither requirement satisfied.\n";
+}
+
 
 int  main()
 {
 	//checkHeight();
 	//checkAgeInline(19);
-	nestedAgeAndHeight(18, 150);
+	//nestedAgeAndHeight(18, 150);
+	//inlineDoubleCheck(18, 150);
 
 	return 0;
 }
