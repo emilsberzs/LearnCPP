@@ -30,10 +30,26 @@ void checkAgeInline(int age)
 	if (age >= constants::minDrinkingAge) goToBar();
 	else std::cout << "Too young for that.\n";
 }
+
+void nestedAgeAndHeight(int age, int height)
+{
+	if (age >= constants::minDrinkingAge)
+	{
+		if (height >= constants::minRiddeHeightCM)
+			std::cout << "Old enough and tall enough\n";
+		else
+			std::cout << "Old enough but not tall enough\n";
+	}
+	else
+		std::cout << "Not old enough";
+}
+
+
 int  main()
 {
 	//checkHeight();
 	//checkAgeInline(19);
+	nestedAgeAndHeight(18, 150);
 
 	return 0;
 }
