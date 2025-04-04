@@ -3,6 +3,12 @@
 /*
 while (condition)
 	statement;
+
+
+do
+	statement
+while
+	condition
 */
 
 void repeatSomeTimes(int x)
