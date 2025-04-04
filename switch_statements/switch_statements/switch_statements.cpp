@@ -18,6 +18,7 @@ void printDigitName(int x)
 		break;;
 	default://serves as a base case in case none of the cases match.
 		name = "Unknown";
+		break;
 	}
 	std::cout << "The number was " << name;
 }
